@@ -8,39 +8,38 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Unforgettable Events, Crafted to Perfection</h1>
+          <h1>Eventos inolvidables, creados a la perfección.</h1>
           <p>
-            We design, plan, and execute premium events that leave lasting impressions.
-            From corporate parties to private celebrations — we handle everything.
+            Diseñamos, planificamos, y ejecutamos eventos premium que dejan impresiones duraderas. Desde fiestas corporativas hasta celebraciones privadas, nos encargamos de todo.
           </p>
 
-          <a href="/contact" className="hero-cta">Plan Your Event</a>
+          <a href="/contact" className="hero-cta">Planifica tu evento</a>
         </div>
       </section>
 
       {/* FEATURES */}
       <section className="features">
         <div className="feature">
-          <h2>🎉 Event Planning</h2>
-          <p>Complete planning services tailored to your vision & budget.</p>
+          <h2>🎉 Planificación de eventos</h2>
+          <p>Servicios de planificación completos adaptados a tu visión y presupuesto.</p>
         </div>
 
         <div className="feature">
-          <h2>🍽️ Catering Coordination</h2>
-          <p>Top-tier food, custom menus, and luxury dining experiences.</p>
+          <h2>🍽️ Coordinación de Catering</h2>
+          <p>Comida de primera calidad, menús personalizados y experiencias gastronómicas de lujo.</p>
         </div>
 
         <div className="feature">
-          <h2>🎶 Entertainment</h2>
-          <p>DJs, live performers, hosts — curated for your event vibe.</p>
+          <h2>🎶 Entretenimiento</h2>
+          <p>DJs, artistas en vivo, anfitriones: seleccionados para la vibra de tu evento.</p>
         </div>
       </section>
 
       {/* CTA BLOCK */}
       <section className="cta-block">
-        <h2>Ready to Bring Your Event to Life?</h2>
-        <p>Let our team handle the details.</p>
-        <a href="/contact" className="cta-btn">Get Started</a>
+        <h2>¿Listo para dar vida a tu evento?</h2>
+        <p>Deja que nuestro equipo se encargue de los detalles.</p>
+        <a href="/contact" className="cta-btn">Comenzar</a>
       </section>
 
     </div>

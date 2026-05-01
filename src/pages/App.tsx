@@ -12,7 +12,6 @@ export default function App() {
     { label: 'Home', ariaLabel: 'Go to Home', link: '/' },
     { label: 'Decorations', ariaLabel: 'View our Decorations', link: '/decorations' },
     { label: 'Food Services', ariaLabel: 'View our Food Services', link: '/food-services' },
-    { label: 'Services', ariaLabel: 'View our Services', link: '/services' },
     { label: 'Packages', ariaLabel: 'Explore our Packages', link: '/packages' },
     { label: 'Flyer Gallery', ariaLabel: 'See our Gallery', link: '/gallery' },
     { label: 'About', ariaLabel: 'Learn more About us', link: '/about' },
@@ -25,7 +24,7 @@ export default function App() {
         <StaggeredMenu
             className="staggered-menu"
             items={menuItems}
-            logoUrl="/src/assets/logo-no-name.png"
+            logoUrl="/src/assets/logo-no-name-nobackground.png"
             colors={['#BA8404', '#FFB400']}
             menuButtonColor="#ffffff"
             openMenuButtonColor="#000000"

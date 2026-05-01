@@ -45,6 +45,7 @@ export default function Food() {
       {/* 📸 Slideshow */}
       <section className="slideshow-section">
         <h2>Gallery</h2>
+        <br />
         <div className="slideshow">
           {slideshow.map((s, i) => (
             <div className="slide" key={i}>

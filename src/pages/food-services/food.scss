@@ -1,5 +1,28 @@
-.food-page {
+.food-hero {
     width: 100%;
     background-image: url("/food-hero.jpg");
-    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.slideshow-section, .popular-section {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.slideshow, .menu-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.slideshow img, .menu-grid img {
+  width: 280px;
+  height: 200px;
+  border-radius: 16px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
