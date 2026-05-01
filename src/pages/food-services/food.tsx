@@ -56,7 +56,7 @@ export default function Food() {
       </section>
 
       {/* ⭐ Popular Dishes */}
-      <section className="popular-section">
+      {/* <section className="popular-section">
         <h2>Most Popular</h2>
         <div className="popular-grid">
           {popular.map((p, i) => (
@@ -66,10 +66,10 @@ export default function Food() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* 🍽️ Catering Menu */}
-      <section className="menu-section">
+      {/* <section className="menu-section">
         <h2>Catering Menu</h2>
         <div className="menu-grid">
           {cateringMenu.map((cat, idx) => (
@@ -83,7 +83,7 @@ export default function Food() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
     </div>
   );

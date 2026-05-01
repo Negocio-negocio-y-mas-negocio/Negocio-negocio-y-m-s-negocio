@@ -6,6 +6,7 @@ import StaggeredMenu from '../components/StaggeredMenu/StaggeredMenu'
 import Gallery from './gallery/gallery'
 import Decorations from './decorations/decorations'
 import Food from './food-services/food'
+import Contact from './contact/contact'
 
 export default function App() {
   const menuItems = [
@@ -31,12 +32,12 @@ export default function App() {
             changeMenuColorOnOpen={true}
             accentColor="#ffb400"
           />
-          <br />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/decorations' element={<Decorations />} />
           <Route path='/food-services' element={<Food />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
