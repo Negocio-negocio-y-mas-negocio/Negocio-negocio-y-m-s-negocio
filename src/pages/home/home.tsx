@@ -1,4 +1,6 @@
+import MagicBento from "../../components/MagicBento/MagicBento";
 import "./home.scss";
+
 
 export default function Home() {
 
@@ -34,6 +36,16 @@ export default function Home() {
           <h2>🎶 Entretenimiento</h2>
           <p>DJs, artistas en vivo, anfitriones: seleccionados para la vibra de tu evento.</p>
         </div>
+      </section>
+
+    {/*REVIEWS SECTION */}
+      <section className="reviews">
+        <MagicBento 
+          enableMagnetism={false}
+          enableStars={false}
+          glowColor="#ffb400"
+          enableBorderGlow={true}
+        />
       </section>
 
       {/* CTA BLOCK */}

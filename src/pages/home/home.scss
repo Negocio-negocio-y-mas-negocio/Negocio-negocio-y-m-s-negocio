@@ -93,6 +93,18 @@
     }
   }
 
+  .reviews {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 24px;
+
+    h1 {
+      font-size: 32px;
+      color: var(--accent);
+      margin-bottom: 40px;
+    }
+  }
+
   // CTA BLOCK
   .cta-block {
     background: var(--bg-light);

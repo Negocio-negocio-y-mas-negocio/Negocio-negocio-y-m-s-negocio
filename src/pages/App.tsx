@@ -7,12 +7,14 @@ import Gallery from './gallery/gallery'
 import Decorations from './decorations/decorations'
 import Food from './food-services/food'
 import Contact from './contact/contact'
+import Ropa from './clothing/ropa'
 
 export default function App() {
   const menuItems = [
     { label: 'Home', ariaLabel: 'Go to Home', link: '/' },
     { label: 'Decorations', ariaLabel: 'View our Decorations', link: '/decorations' },
     { label: 'Food Services', ariaLabel: 'View our Food Services', link: '/food-services' },
+    { label: 'Clothing', ariaLabel: 'View our Clothing', link: '/clothing' },
     { label: 'Packages', ariaLabel: 'Explore our Packages', link: '/packages' },
     { label: 'Flyer Gallery', ariaLabel: 'See our Gallery', link: '/gallery' },
     { label: 'About', ariaLabel: 'Learn more About us', link: '/about' },
@@ -37,6 +39,7 @@ export default function App() {
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/decorations' element={<Decorations />} />
           <Route path='/food-services' element={<Food />} />
+          <Route path='/clothing' element={<Ropa />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>

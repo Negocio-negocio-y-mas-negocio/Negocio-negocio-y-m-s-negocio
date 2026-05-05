@@ -4,9 +4,16 @@ import food1 from "../../assets/foods/food1.jpg";
 import food2 from "../../assets/foods/food2.jpg";
 import food3 from "../../assets/foods/food3.jpg";
 import food4 from "../../assets/foods/food4.jpg";
+import food5 from "../../assets/foods/food4.jpg";
+import food6 from "../../assets/foods/food4.jpg";
+import food7 from "../../assets/foods/food4.jpg";
+import food8 from "../../assets/foods/food4.jpg";
+import food9 from "../../assets/foods/food4.jpg";
 
 export default function Food() {
-  const slideshow = [food1, food2, food3, food4];
+  const slideshowSingular = [food1, food2, food3, food4, food5, food6, food7, food8, food9];
+
+  const slideshow = slideshowSingular.concat(slideshowSingular);
 
   const popular = [
     { img: food1, title: "Signature Charcuterie Board" },
@@ -47,17 +54,18 @@ export default function Food() {
         <h2>Gallery</h2>
         <br />
         <div className="slideshow">
-          {slideshow.map((s, i) => (
-            <div className="slide" key={i}>
-              <img src={s} alt="Food" />
-            </div>
-          ))}
+          <div className="slideshow-track">
+            {slideshow.map((s, i) => (
+              <img src={s} alt="Food" key={i} />
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ⭐ Popular Dishes */}
-      {/* <section className="popular-section">
+      <section className="popular-section">
         <h2>Most Popular</h2>
+        <br />
         <div className="popular-grid">
           {popular.map((p, i) => (
             <div className="popular-card" key={i}>
@@ -66,10 +74,10 @@ export default function Food() {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
 
       {/* 🍽️ Catering Menu */}
-      {/* <section className="menu-section">
+      <section className="menu-section">
         <h2>Catering Menu</h2>
         <div className="menu-grid">
           {cateringMenu.map((cat, idx) => (
@@ -83,7 +91,7 @@ export default function Food() {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
 
     </div>
   );
