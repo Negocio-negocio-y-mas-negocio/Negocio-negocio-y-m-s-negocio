@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './home/home'
@@ -15,10 +14,8 @@ export default function App() {
     { label: 'Decorations', ariaLabel: 'View our Decorations', link: '/decorations' },
     { label: 'Food Services', ariaLabel: 'View our Food Services', link: '/food-services' },
     { label: 'Clothing', ariaLabel: 'View our Clothing', link: '/clothing' },
-    { label: 'Packages', ariaLabel: 'Explore our Packages', link: '/packages' },
     { label: 'Flyer Gallery', ariaLabel: 'See our Gallery', link: '/gallery' },
-    { label: 'About', ariaLabel: 'Learn more About us', link: '/about' },
-    { label: 'Contact', ariaLabel: 'Get in Touch', link: '/contact' },
+    { label: 'Entertainment', ariaLabel: 'See our Entertainment', link: '/entertainment' }
   ];
 
   return (
@@ -40,7 +37,7 @@ export default function App() {
           <Route path='/decorations' element={<Decorations />} />
           <Route path='/food-services' element={<Food />} />
           <Route path='/clothing' element={<Ropa />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/entertainment' element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
